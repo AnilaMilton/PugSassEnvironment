@@ -1,7 +1,6 @@
 {
   "name": "pugsass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +15,15 @@
     "gulp-babel": "^8.0.0",
     "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavlarry/PugSassEnvironment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranavlarry/PugSassEnvironment/issues"
+  },
+  "homepage": "https://github.com/pranavlarry/PugSassEnvironment#readme",
+  "description": ""
 }

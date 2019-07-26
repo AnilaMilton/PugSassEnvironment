@@ -1,0 +1,31 @@
+.bs-example {
+  height: 100vh; }
+
+.hero {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  height: 479px;
+  width: 100vw;
+  background-position: 50% 0;
+  background-image: url("https://images.pexels.com/photos/381739/pexels-photo-381739.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); }
+
+.content {
+  position: absolute;
+  z-index: 1000;
+  top: 62.7vh;
+  background: #8eec92;
+  height: 600px;
+  width: 100%;
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
+
+button.btn.btn-link.collapsed::before {
+  content: "+"; }
+
+button.btn.btn-link::before {
+  content: '-'; }
